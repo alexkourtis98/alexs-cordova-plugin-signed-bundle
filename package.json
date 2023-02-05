@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-signed-bundle",
+  "version": "1.0.1",
+  "description": "Cordova plugin for creating signed Android bundles on release build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeseet/cordova-plugin-signed-bundle.git"
+  },
+  "keywords": [
+    "cordova",
+    "sign",
+    "bundle",
+    "apk",
+    "aab",
+    "release"
+  ],
+  "author": "Content & Creations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyeseet/cordova-plugin-signed-bundle/issues"
+  },
+  "homepage": "https://contentandcreations.nl",
+  "cordova": {
+    "id": "cordova-plugin-signed-bundle",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}

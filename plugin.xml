@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		id="cordova-plugin-signed-bundle" version="0.1.0">
+    <name>Cordova Signed Bundle Plugin</name>
+    <description>Cordova plugin for creating signed Android bundles on release build</description>
+    <keywords>cordova,sign,bundle,apk,aab,release</keywords>
+    <license>MIT</license>
+	<hook type="after_build" src="hooks/SignedBundle.js" />
+</plugin>
